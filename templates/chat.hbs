@@ -1,0 +1,11 @@
+<h1>Chat</h1>
+<ul class="messages-list">
+  {{#each this}}
+    <li>{{content}}</li>
+  {{/each}}
+</ul>
+
+<form class="create-message-form">
+  <textarea class="create-message-content" cols="30" rows="10"></textarea>
+  <input type="submit">
+</form>
